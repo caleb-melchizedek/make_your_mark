@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "buildcss":"tailwindcss build -i src/style.css -o public/style.css"   
   },
   "dependencies": {
     "next": "latest",
